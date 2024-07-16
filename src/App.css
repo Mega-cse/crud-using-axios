@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+.App-body {
+  padding: 20px;
+}
+
+.user-list {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+table th {
+  background-color:rgb(133, 133, 209);
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"], input[type="email"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+input[type="number"], input[type="phone"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="edit"] {
+  padding: 10px;
+  background-color:rgb(151, 206, 151);
+  border-radius: 3px;
+  cursor: pointer;
+}
+button[type="delete"] {
+  padding: 10px;
+  background-color:rgb(209, 78, 78);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
